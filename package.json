@@ -5,8 +5,9 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "webpack-dev-server --config webpack.dev.config.js --devtool eval --progress --colors --hot --inline --content-base src",
-    "pub": " rimraf dist/* && webpack --config webpack.pub.config.js  -p"
+    "start": "webpack-dev-server --config webpack.dev.config.js --devtool eval --progress --colors --hot --inline --content-base src",
+    "bulid": "rimraf dist/* && webpack --config webpack.pub.config.js  -p",
+    "deploy": "yarn run build && gh-pages -d dist"
   },
   "author": "chenjirong",
   "license": "MIT",
@@ -23,6 +24,7 @@
     "extract-text-webpack-plugin": "^1.0.1",
     "fetch-jsonp": "^1.0.6",
     "file-loader": "^0.9.0",
+    "gh-pages": "^1.2.0",
     "html-webpack-plugin": "^2.28.0",
     "less": "^2.7.2",
     "less-loader": "^2.2.3",
