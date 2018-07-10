@@ -7,7 +7,7 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "webpack-dev-server --config webpack.dev.config.js --devtool eval --progress --colors --hot --inline --content-base src",
     "build": "rimraf dist/* && webpack --config webpack.pub.config.js  -p",
-    "deploy": "yarn run build && gh-pages -d dist"
+    "deploy": "gh-pages -d dist"
   },
   "author": "chenjirong",
   "license": "MIT",
