@@ -6,7 +6,7 @@ const {Footer} = Layout
 const Foot = () => {
   return (
     <Footer className='wrap tc'>
-      EasyFun ©2017 Created by xiaomeng.
+      HappyTime ©2018 Created by chenjirong.
       Thanks for douban's Data OAuth2.0.
     </Footer>
   )

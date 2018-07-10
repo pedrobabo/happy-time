@@ -47,7 +47,7 @@ const MusicList = ()=> {
         </div>
         <p className="dec">
           <a title="2016年度欧美单曲播放排行榜" className="tit s-fc0" href="javascript:;">
-            2016年度欧美单曲播放排行榜
+            2018年度欧美单曲播放排行榜
           </a>
         </p>
       </li>

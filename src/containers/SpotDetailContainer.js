@@ -12,7 +12,7 @@ export default class SpotDetailContainer extends Component {
   render() {
     return (
       <div>
-         SportDE页面暂时不开发
+         敬请期待...
       </div>
     )
   }

@@ -15,6 +15,7 @@ export default class HomeContainer extends Component {
             <div><img src={require("../image/movie_carousel_2.jpg")}/></div>
             <div><img src={require("../image/movie_carousel_3.jpg")}/></div>
             <div><img src={require("../image/movie_carousel_4.jpg")}/></div>
+            <div><img src={require("../image/movie_carousel_5.jpg")}/></div>
           </Carousel>
         </div>
         <MovieColumn

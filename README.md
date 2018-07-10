@@ -1,5 +1,5 @@
-## 简趣
-一个简单趣味的pc-react站
+## 快乐时光
+一个happy time的pc-react站
 
 ###技术栈
 - React
@@ -31,7 +31,7 @@
 配置webpack开发热更新
 4.6
 使用stage-0编程，这样可以省去bind(this)
-使用聚合数据API与localStorage做用户登录,接口只能接受username-aaa
+使用API与localStorage做用户登录,接口只能接受username-aaa
 4.21
 完成电影详情页，首页
 5.21
@@ -49,7 +49,5 @@ router的异步加载
 8. webpack打包无法处理jsx中的img标签引用，使用require()则会被编译
 9. react-router@4.x.x渲染是需要按照react-router-dom，没有hashHistory方法，推荐使用browserHistory,只有react-router@3.x.x才有hashHistory
 
-###预览
-![](http://i.imgur.com/6aPjIX4.jpg)
-![](http://i.imgur.com/7FQl7Q4.jpg)
+
 
